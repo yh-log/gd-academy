@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Override_Ex01_MainClass {
+public class Ex02_Override_MainClass {
 
 	public static void main(String[] args) {
 
@@ -9,7 +9,7 @@ public class Override_Ex01_MainClass {
 	}
 	
 	public static void exam() {
-		Override_Ex01_Point3D p = new Override_Ex01_Point3D(1, 2, 3);
+		Ex02_Override_Point3D p = new Ex02_Override_Point3D(1, 2, 3);
 		System.out.println(p.location());
 	}
 
