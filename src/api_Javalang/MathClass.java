@@ -8,6 +8,7 @@ public class MathClass {
 		
 		System.out.println("절대값: " + Math.abs(-10));
 		System.out.println("정수올림값: " + Math.ceil(1.1));
+		System.out.println("반올림: " + Math.round(1.5));
 		System.out.println("정수내림값: " + Math.floor(1.9));
 		System.out.println("제곱: " + Math.pow(2, 2.5));
 		System.out.println("제곱근(루트): " + Math.sqrt(25));

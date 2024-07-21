@@ -17,7 +17,8 @@ public class Employee {
 	private String dept; // 소속부서
 	
 	// 생성자 - Employee 클래스를 사용하기 위한 객체 생성
-	public Employee(String type, String name, String dept) {
+// 필요 없었던 내용임
+		public Employee(String type, String name, String dept) {
 		this.type = type;
 		this.name = name;
 		this.dept = dept;

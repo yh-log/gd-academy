@@ -7,24 +7,21 @@ https://pre.goodee.co.kr/member/myclassroom?memno=40&classno=2&orderno=1#totalvi
 
 public class Ex04_MathClass {
 	
-	public void round(double a, int b) {
-		
-	}
-	
-	public void floor(double a) {
-		
-	}
 
 	public static void main(String[] args) {
 		
-		  double num = 3.5162;
-		  System.out.println(Ex04_MathClass.round(num, 1));
-		  System.out.println(Ex04_MathClass.round(num, 2));
-		  System.out.println(Ex04_MathClass.round(num, 3));
-		  System.out.println(Ex04_MathClass.floor(num, 1));
-		  System.out.println(Ex04_MathClass.floor(num, 2));
-		  System.out.println(Ex04_MathClass.floor(num, 3));
-
+		exam();
 	}
 
+	public static void exam() {
+		  double num = 3.5162;
+		  
+		  System.out.println(Ex04_MyMath.round(num, 1));
+		  System.out.println(Ex04_MyMath.round(num, 2));
+		  System.out.println(Ex04_MyMath.round(num, 3));
+		  System.out.println(Ex04_MyMath.floor(num, 1));
+		  System.out.println(Ex04_MyMath.floor(num, 2));
+		  System.out.println(Ex04_MyMath.floor(num, 3));
+	}
+	
 }

@@ -1,9 +1,9 @@
 package inheritance;
 
-public class Ex02_Override_Point {
+public class Ex01_Override_Point {
 	
 	private int x, y;
-	public Ex02_Override_Point(int x, int y) {
+	public Ex01_Override_Point(int x, int y) {
 		this.x = x;
 		this.y = y;
 	}
